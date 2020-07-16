@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1A1500;
+}
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: #eafff9;
+    box-shadow: 0 0 0 5px #083D77,
+                0 0 0 10px #EBEBD3,
+                0 0 0 15px #DA4167,
+                0 0 0 20px #F4D35E,
+                0 0 0 25px #F78764;
+
+}
